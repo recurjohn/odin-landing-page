@@ -39,6 +39,7 @@ body {
 /* HERO AREA */
 .hero-area {
     display: flex;
+    padding: 40px 0px;
 }
 
 .h1-header, .h1-body {
@@ -66,4 +67,37 @@ body {
 #hero {
     max-width: 100%;
     max-height: 100%;
+}
+
+/* GRID SECTION*/
+.grid-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.image-grid {
+    display: flex;
+    gap: 16px;
+}
+
+.image-and-caption {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-image {
+    height: 125px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.caption {
+    word-wrap: break-word;    
+    text-align: center;
 }
