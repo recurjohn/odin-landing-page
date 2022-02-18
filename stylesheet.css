@@ -4,6 +4,7 @@ body {
     background-color: rgb(31, 41, 55);
 }
 
+/* NAV BAR */
 .nav-bar, .nav-links, #logo {
     gap: 16px;
     padding: 8px;
@@ -33,4 +34,36 @@ body {
 
 .nav-link {
     text-decoration: none;
+}
+
+/* HERO AREA */
+.hero-area {
+    display: flex;
+}
+
+.h1-header, .h1-body {
+    color: white;
+}
+
+.h1-button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.h1-area, .hero-image {
+    padding: 40px;
+}
+
+.hero-image {
+    width: 800px; /* Likely not the best solution here*/
+    height: auto;
+}
+
+#hero {
+    max-width: 100%;
+    max-height: 100%;
 }
