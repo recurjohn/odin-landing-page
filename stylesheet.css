@@ -104,7 +104,6 @@ body {
 }
 
 /* QUOTE SECTION */
-
 .quote-section {
     background-color: #E5E7EB;
     padding: 40px;
@@ -127,4 +126,44 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+/* FOOTER CTA SECTION*/
+.footer-CTA-section {
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-CTA{
+    padding: 16px 16px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer-header, .footer-body {
+    color: white;
+}
+
+.footer-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ghost-button {
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    font-weight: bold;
+    max-height: 40px;
+    font-size: 16px;
 }
