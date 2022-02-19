@@ -1,5 +1,7 @@
 /* styles.css */
 
+
+
 body {
     background-color: rgb(31, 41, 55);
 }
@@ -166,4 +168,15 @@ body {
     font-weight: bold;
     max-height: 40px;
     font-size: 16px;
+}
+
+/* FOOTER SECTION */
+.footer-bar {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px 
+}
+
+.copyright {
+    color: white;
 }
