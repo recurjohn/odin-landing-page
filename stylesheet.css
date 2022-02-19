@@ -1,9 +1,12 @@
 /* styles.css */
-
+h1, h2, h3, p, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 body {
     background-color: rgb(31, 41, 55);
+    margin: 0;
 }
 
 /* NAV BAR */
@@ -72,7 +75,8 @@ body {
     max-height: 100%;
 }
 
-/* GRID SECTION*/
+/* GRID SECTION*/ 
+/* Note: Non-responsive */
 .grid-section {
     background-color: white;
     display: flex;
@@ -131,6 +135,7 @@ body {
 }
 
 /* FOOTER CTA SECTION*/
+/* Note: Non-responsive */
 .footer-CTA-section {
     background-color: white;
     padding: 40px;
@@ -146,7 +151,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 80px;
 }
 
 .footer-header, .footer-body {
@@ -156,6 +161,10 @@ body {
 .footer-header {
     font-size: 24px;
     font-weight: bold;
+}
+
+.footer-body {
+    font-size: 12px;
 }
 
 .ghost-button {
